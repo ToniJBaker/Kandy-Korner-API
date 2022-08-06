@@ -1,0 +1,230 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Amiya  Tillman",
+      "email": "tillman@go.com",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "fullName": "Euna Mohr",
+      "email": "mohr@go.com",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "fullName": "Kiel Jenkins",
+      "email": "jenkins@go.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "fullName": "Dawn Becker",
+      "email": "becker@go.com",
+      "isStaff": false
+    },
+    {
+      "id": 5,
+      "fullName": "Javon Ebert",
+      "email": "ebert@go.com",
+      "isStaff": true
+    },
+    {
+      "id": 6,
+      "fullName": "Kristofer Kiehn",
+      "email": "kiehn@go.com",
+      "isStaff": true
+    },
+    {
+      "id": 7,
+      "fullName": "Vladimir Murray",
+      "email": "murray@go.com",
+      "isStaff": true
+    },
+    {
+      "id": 8,
+      "fullName": "Cayla Romaguera",
+      "email": "romaguera@go.com",
+      "isStaff": true
+    },
+    {
+      "id": 9,
+      "fullName": "Arden Schmitt",
+      "email": "schmitt@go.com",
+      "isStaff": false
+    },
+    {
+      "id": 10,
+      "fullName": "Rudy Kovacek",
+      "email": "kovacek@go.com",
+      "isStaff": false
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "address": "85867 Chauncey View",
+      "loyaltyNumber": "18672",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "address": "74688 Paucek Lane",
+      "loyaltyNumber": "13452",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "address": "852 Stoltenberg Union",
+      "loyaltyNumber": "12118",
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "address": "30007 Rowe Keys",
+      "loyaltyNumber": "11324",
+      "userId": 4
+    },
+    {
+      "id": 5,
+      "address": "966 Regan Key",
+      "loyaltyNumber": "19456",
+      "userId": 9
+    },
+    {
+      "id": 6,
+      "address": "580 Nikita Common",
+      "loyaltyNumber": "17653",
+      "userId": 10
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": "Sat Dec 25 2021 22:28:25 GMT-0500 (Eastern Standard Time)",
+      "payRate": 13.5,
+      "userId": 5
+    },
+    {
+      "id": 2,
+      "startDate": "Mon Apr 04 2022 02:43:31 GMT-0400 (Eastern Daylight Time)",
+      "payRate": 16.75,
+      "userId": 6
+    },
+    {
+      "id": 3,
+      "startDate": "Thu Aug 05 2021 00:37:27 GMT-0400 (Eastern Daylight Time)",
+      "payRate": 20.25,
+      "userId": 7
+    },
+    {
+      "id": 4,
+      "startDate": "Tue May 03 2022 14:24:30 GMT-0400 (Eastern Daylight Time)",
+      "payRate": 17.75,
+      "userId": 8
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "6112 Dickinson Loaf",
+      "squareFootage": 2525
+    },
+    {
+      "id": 2,
+      "address": "952 Xander Centers",
+      "squareFootage": 1800
+    },
+    {
+      "id": 3,
+      "address": "578 Ullrich Village",
+      "squareFootage": 1550
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Chocolate Covered Almonds",
+      "productTypeId": 1,
+      "price": 3.5
+    },
+    {
+      "id": 2,
+      "name": "Chocolate Hearts",
+      "productTypeId": 1,
+      "price": 3.25
+    },
+    {
+      "id": 3,
+      "name": "Charlston Chew",
+      "productTypeId": 4,
+      "price": 1.95
+    },
+    {
+      "id": 4,
+      "name": "Sour Patch Kids",
+      "productTypeId": 3,
+      "price": 1.6
+    },
+    {
+      "id": 5,
+      "name": "Tootsie Pop",
+      "productTypeId": 2,
+      "price": 0.75
+    },
+    {
+      "id": 6,
+      "name": "Mega Gummie Bear",
+      "productTypeId": 3,
+      "price": 5.45
+    },
+    {
+      "id": 7,
+      "name": "Salt Water Taffy",
+      "productTypeId": 4,
+      "price": 1.65
+    },
+    {
+      "id": 8,
+      "name": "Lemon Drops",
+      "productTypeId": 2,
+      "price": 1.25
+    },
+    {
+      "userId": 7,
+      "name": "Butterfinger",
+      "productTypeId": 1,
+      "price": 200,
+      "id": 9
+    },
+    {
+      "userId": 7,
+      "name": "Laffy Taffy",
+      "productTypeId": 4,
+      "price": "1.23",
+      "id": 10
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Chocolate"
+    },
+    {
+      "id": 2,
+      "type": "Hard Candy"
+    },
+    {
+      "id": 3,
+      "type": "Gummies"
+    },
+    {
+      "id": 4,
+      "type": "Chewy"
+    }
+  ],
+  "purchases": [
+    {}
+  ]
+}
